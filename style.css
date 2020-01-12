@@ -10,6 +10,10 @@
   color: #ccc;
   font-family: 'Montserrat', sans-serif; }
 
+  #proof-container {
+    max-width: 90%;
+  }
+
   h3 {
       font-family: 'Times New Roman', Times, serif;
       margin-bottom: -10px;
