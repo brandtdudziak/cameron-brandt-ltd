@@ -1,76 +1,130 @@
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
+body {
+  background-color: #3b1010;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #e0c0c0;
+}
+
+#homeNavbar {
+  background-color: #3b1010;
+  padding: 1.25rem 2rem;
+}
+
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.35rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  padding-left: 1.25rem !important;
+}
+
+.nav-item.active .nav-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  margin-bottom: -10px;
+}
+
+h5 {
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: right;
+  margin-top: -10px;
+}
+
+.info {
+  font-size: larger;
+  list-style: none;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile-img {
+  width: 90%;
+  margin-top: 20px;
+}
+
+#bio-text {
+  width: 90%;
+  margin-top: 10px;
+}
+
+#proof-container {
+  max-width: 90%;
+}
+
+#appearances {
+  font-weight: bold;
+  font-size: large;
+}
+
+#appearances li {
+  margin: 5px;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+
+.appearance-photo {
   width: 100%;
-  height: 40px;
-  background-color: #000;
-  color: #ccc;
-  font-family: 'Montserrat', sans-serif; }
+}
 
-  #proof-container {
-    max-width: 90%;
-  }
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 3rem;
+  background-color: #f5e4e0;
+}
 
-  h3 {
-      font-family: 'Times New Roman', Times, serif;
-      margin-bottom: -10px;
-  }
+.footer-brand {
+  color: #8b3030;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
 
-  h5 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: right;
-    margin-top: -10px;
-  }
+.footer-tagline {
+  color: #c0392b;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
 
-  hr {
-      border-top: 2px solid #000;
-  }
+.footer-attribution {
+  color: #3b1010;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
 
-  .info {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    list-style: none;
-    text-align: center;
-  }
-
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #profile-img {
-    width: 90%;
-    margin-top: 20px;
-  }
-
-  #bio-text {
-      width: 90%;
-      margin-top: 10px;
-  }
-
-  #appearances {
-      font-weight: bold;
-      font-size: large;
-  }
-
-  #appearances li {
-      margin: 5px;
-  }
-
-  figure {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  figcaption {
-      font-weight: bold;
-  }
-
-  .appearance-photo {
-      width: 90%;
-  }
+.footer-attribution a {
+  color: #c0392b;
+}
