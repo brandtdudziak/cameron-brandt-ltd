@@ -1,6 +1,10 @@
 body {
   background-color: #3b1010;
   color: #ffffff;
+  padding-top: 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -111,7 +115,7 @@ figcaption {
 }
 
 .site-footer {
-  margin-top: 4rem;
+  margin-top: auto;
   padding: 2rem 3rem;
   background-color: #f5e4e0;
 }
