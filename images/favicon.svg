@@ -12,9 +12,10 @@
   <rect x="5" y="26" width="9" height="13" rx="2" fill="white"/>
   <rect x="16" y="26" width="9" height="13" rx="2" fill="white"/>
 
-  <!-- Center asterisk key -->
-  <text x="32" y="33" text-anchor="middle" dominant-baseline="middle"
-        fill="white" font-size="14" font-weight="bold" font-family="Arial,sans-serif">✱</text>
+  <!-- Center asterisk key (3 crossing lines, no font rendering artifacts) -->
+  <line x1="32" y1="27" x2="32" y2="39" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="26.2" y1="36" x2="37.8" y2="30" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="26.2" y1="30" x2="37.8" y2="36" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
 
   <!-- Right consonant bank, row 1 -->
   <rect x="39" y="11" width="9" height="13" rx="2" fill="white"/>
